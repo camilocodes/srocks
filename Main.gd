@@ -35,7 +35,7 @@ func on_vp_size_change():
 	print(trans_ori)
 		
 	if new_scaling_factor != scaling_factor:
-    	scaling_factor = new_scaling_factor
-    	var default_transform = Transform2D(Vector2(1, 0), Vector2(0, 1), Vector2())
-    	vp.canvas_transform = (default_transform.scaled(Vector2(scaling_factor, scaling_factor)))
+		scaling_factor = new_scaling_factor
+		var default_transform = Transform2D(Vector2(1, 0), Vector2(0, 1), Vector2())
+		vp.canvas_transform = (default_transform.scaled(Vector2(scaling_factor, scaling_factor)))
 	#***
